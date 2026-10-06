@@ -46,9 +46,9 @@ D@{shape: rectangle, label: 'i++'}
 E@{shape: diamond, label: 'i % 2 == 0 ?'}
 F@{shape: lean-r, label: 'FizzBuzz'}
 G@{shape: lean-r, label: 'i'}
-H@{shape: circle, label: 'Finish'}
+H@{shape: dbl-circ, label: 'Finish'}
 
-A --> B --> D --> E --> F --> C
-E --> G --> C --> D
+A --> B --> D --> E -->|Yes| F --> C
+E --> |No| G --> C --> D
 C --> H
 ```
