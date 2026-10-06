@@ -19,7 +19,7 @@
 flowchart TD
 A@{shape: circle, label: 'Start'}
 -->
-prep{{Siapin Angka}}
+prep[/Siapin Angka/]
 -->
 if1{Apakah bilangan tersebut mod 2-nya = 0}
 if1-->|Yes| R1[/Genap/]
