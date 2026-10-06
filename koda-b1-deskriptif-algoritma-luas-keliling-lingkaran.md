@@ -33,3 +33,28 @@ A5 --> A7@{shape: circle, label: 'Stop'}
 A6 --> A7@{shape: circle, label: 'Stop'}
 
 ```
+
+### Algoritma Pseudo-code
+
+```pseudocode
+DECLARE pi : REAL
+DECLARE diameter : REAL
+DECLARE radius : REAL
+
+DECLARE area : REAL
+DECLARE circumference : REAL
+
+radius <- diameter / 2
+
+IF radius MOD 7 = 0 THEN
+  pi <- 22/7
+ELSE
+  pi <- 3.14
+ENDIF
+
+area <-pi * radius * radius
+circumference <- 2 * pi * radius
+
+OUTPUT "Area of the cirlce is ", area
+OUTPUT "Circumference of the circle is ", circumference
+```
